@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit';
+}
+.navbar-brand {
+  font-size: 20px;
+}
+.navbar {
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+.navbar li {
+  font-size: 16px;
+}
+
+.badge {
+  margin-left: -20%;
+  margin-top: 70%;
+  position: absolute;
+  font-size: 16px;
+}
