@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 class Navbar extends Component{
 
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = { name : 'เม็ดบัวทอดแม่จินดา' }
   }
   render(){
