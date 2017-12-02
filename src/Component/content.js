@@ -17,49 +17,49 @@ class Content extends Component {
       value3: 0
     }
   }
-  changeTitle(name, price, value) {
+  changeTitle(...props) {
     this.setState({
       name: 'เม็ดบัวทอดรสเค็ม',
       price: this.state.price + 60,
       value: this.state.value + 1
     })
   }
-  changeTitle2(name2, price2, value2) {
+  changeTitle2(...props) {
     this.setState({
       name2: 'เม็ดบัวทอดรสเค็ม(ซอง)',
       price2: this.state.price2 + 35,
       value2: this.state.value2 + 1
     })
   }
-  changeTitle3(name3, price3, value3) {
+  changeTitle3(...props) {
     this.setState({
       name3: 'ดีบัวอบแห้ง',
       price3: this.state.price3 + 120,
       value3: this.state.value3 + 1
     })
   }
-  removeTitle(name, price, value) {
+  removeTitle(...props) {
     this.setState({
       name: 'เม็ดบัวทอดรสเค็ม',
       price: 0,
       value: 0
     })
   }
-  removeTitle2(name2, price2, value2) {
+  removeTitle2(...props) {
     this.setState({
       name2: 'เม็ดบัวทอดรสเค็ม(ซอง)',
       price2: 0,
       value2: 0
     })
   }
-  removeTitle3(name3, price3, value3) {
+  removeTitle3(...props) {
     this.setState({
       name3: 'ดีบัวอบแห้ง',
       price3: 0,
       value3: 0
     })
   }
-  removeAll(name,name2,name3) {
+  removeAll(...props) {
     this.setState({
       name: 'เม็ดบัวทอดรสเค็ม',
       price: 0,
